@@ -2,10 +2,10 @@ class Voiture
 {
 public:
   int i;
-  //Voiture(); below
-  Voiture(int n = 0);
+  Voiture::Voiture();
+  Voiture::Voiture(int n);
 
-  ~Voiture();
+  Voiture::~Voiture();
     
 
   void Affiche();

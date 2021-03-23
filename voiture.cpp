@@ -9,6 +9,7 @@ public:
   Voiture()
   {
   }
+  
   Voiture(int n )
   {
     std::cout << "constr Voit -adresse" << this << endl;
