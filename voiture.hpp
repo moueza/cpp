@@ -2,7 +2,7 @@ class Voiture
 {
 public:
   int i;
-  Voiture();
+  //Voiture(); below
   Voiture(int n = 0);
 
   ~Voiture();

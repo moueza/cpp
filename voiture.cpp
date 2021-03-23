@@ -9,7 +9,7 @@ public:
   Voiture()
   {
   }
-  Voiture(int n = 0) : i(n)
+  Voiture(int n )
   {
     std::cout << "constr Voit -adresse" << this << endl;
   }

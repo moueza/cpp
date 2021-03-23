@@ -6,7 +6,7 @@ int main()
 {
     std::cout << "Hello Geek\n";   
     //Voiture a;
-    Voiture a=new Voiture();
+    Voiture a = new Voiture();
     a.Affiche();
 
     cout << "------" << endl;
