@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 class Voiture
 {
 public:
@@ -19,4 +20,4 @@ public:
     {
         cout << "i=" << i << endl;
     }
-}
+};

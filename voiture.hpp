@@ -1,11 +1,11 @@
 class Voiture
 {
 public:
-    int i;
-   Voiture(int n = 0) ;
+  int i;
+  Voiture(int n = 0);
 
-    ~Voiture();
+  ~Voiture();
     
 
-    void Affiche();
+  void Affiche();
 };
