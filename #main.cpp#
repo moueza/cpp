@@ -4,12 +4,10 @@
 using namespace std;
 int main()
 {
-    std::cout << "Hello Geek\n";
+    std::cout << "Hello Geek\n";   
     //Voiture a;
-    Voiture * a = new Voiture();
-
-   // a.affiche();
-    a->affiche();
+    Voiture a = new Voiture();
+    a.Affiche();
 
     cout << "------" << endl;
     return 0;

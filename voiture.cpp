@@ -6,6 +6,7 @@ class Voiture
 {
 public:
   int i;
+  
   Voiture()
   {
   }
@@ -20,7 +21,7 @@ public:
     cout << "destr Voit -adresse" << this << endl;
   }
 
-  void Affiche()
+  void affiche()
   {
     cout << "i=" << i << endl;
   }
